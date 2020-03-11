@@ -89,7 +89,7 @@ import string
 COLOR='black'
 def get_data():
     #data = pd.read_csv("/Users/simontirman/Downloads/df_filtered11.csv")
-    data = pd.read_csv("/Users/simontirman/df_filtered33.csv")
+    data = pd.read_csv("df_filtered33.csv")
     
     return data
 
@@ -429,7 +429,7 @@ max_width = selections[0]
 type_cat = selections[1]
 
 
-categories = pd.read_csv('/Users/simontirman/Desktop/families.csv', delimiter=';')
+categories = pd.read_csv('families.csv', delimiter=';')
 categories.columns=['a','b']
 
 fam_dict = dict(zip(categories.a, categories.b))
