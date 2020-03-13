@@ -438,7 +438,7 @@ fam_dict = dict(zip(categories.a, categories.b))
 
 df = get_data()
 #df['Category'] = df.replace({"Category": fam_dict})['Category']
-logo = Image.open('/Users/simontirman/Downloads/logo_Cmp_Paris.png')
+logo = Image.open('logo_Cmp_Paris.png')
 st.image(logo,width=max_width, use_column_width=True )
 st.title("Recherche des Produits Tendances Selon l'Arborescence CMP")
 st.markdown('<style>h1{color: grey;}</style>', unsafe_allow_html=True)
